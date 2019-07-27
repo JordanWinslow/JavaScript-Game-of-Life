@@ -192,6 +192,35 @@ class Main extends React.Component {
                     selectBox={this.selectBox}
                 />
                 <h2>Generations: {this.state.generation}</h2>
+                <h3>About:</h3>
+                <div id="rulesbox">
+                <p id="rules">
+                        The Game of Life, also known simply as Life, is a cellular automaton devised by the British mathematician <strong><a href="https://en.wikipedia.org/wiki/John_Horton_Conway">John Horton Conway</a></strong> in 1970.
+                </p>
+                <p id="rules">
+                        The game is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input.<br /><br />
+                        <strong><em>Adjust the grid size and click "Seed" to randomize the game or pause and click any square to draw your own organisms.</em></strong>
+                </p>
+                <p id="rules">
+                One interacts with the Game of Life by creating an initial configuration and observing how it evolves, or, for advanced players, by creating patterns with particular properties.
+                </p>
+                </div>
+                <h3>The Rules:</h3>
+                <div id="rulesbox">
+                <p id="rules">
+                    <strong><u>For a space that is 'populated':</u></strong><br />
+                    Each cell with one or no neighbors dies, as if by solitude.<br />
+                    Each cell with four or more neighbors dies, as if by overpopulation.<br />
+                    Each cell with two or three neighbors survives.<br />
+                </p>
+                <p id="rules">
+                    <strong><u>For a space that is 'empty' or 'unpopulated'</u></strong><br />
+                    Each cell with three neighbors becomes populated.<br />
+                    </p>
+                </div>
+                <p id="footer">
+                    Coded from scratch by Jordan Winslow by following tutorials on freecodecamp.org
+                </p>
             </div>
         )
     }

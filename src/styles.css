@@ -1,18 +1,36 @@
-body {
-  /*
-  background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/squares.png) 
-  */
+#rules {
+  font-size: 18px;
+  color: rgb(61, 52, 52);
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%
+    
 }
-
+#rulesbox {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 2px solid rgb(45, 133, 145)
+  -webkit-box-shadow: 5px 5px 11px 1px rgba(0,0,0,0.78); 
+  box-shadow: 5px 5px 11px 1px rgba(0,0,0,0.78);
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
+}
 #buttons {
   display: flex;
   align-items: center;
   justify-content: center
   }
 
+  #footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 18px;
+  }
 .box {
   display: inline-block;       
-  border: 1px solid black;
+  border: 1px solid rgb(94, 181, 192);
   width: 15px;
   height: 15px;
   margin-left: -1px;
@@ -44,7 +62,13 @@ body {
   box-shadow: 0px 0px 20px white;
   margin-top: 20px;
 }
-  
+  h1 {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 30px;
+}
 h1, h2, h3, h4 {
 text-align: center;
 color: transparent;

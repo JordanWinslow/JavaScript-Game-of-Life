@@ -1,8 +1,13 @@
 {
   "name": "javascript-game-of-life",
   "version": "1.0.0",
-  "description": "",
-  "keywords": [],
+  "description": "John Horton Conway's Game of Life, this time in JavaScript.",
+  "keywords": [
+    "life",
+    "react",
+    "game of life",
+    "game"
+  ],
   "main": "src/index.js",
   "dependencies": {
     "react": "16.8.6",
