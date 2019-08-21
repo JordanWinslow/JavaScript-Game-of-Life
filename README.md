@@ -7,17 +7,18 @@
   This project utilizes React.js and state management to reproduce the famous "Game of Life" simulation 
 </p>
 <p>
-  The code within demonstrates knowledge of the following foundations of JavaScript:
+  The code within demonstrates knowledge of the following foundations of React:
+</p>
 <strong>
 <ul>
-  <li>Event Handlers (4 direction input)
-  <li>Selectors
-  <li>Passing objects and functions as arguments
-  <li>Object and Array destructuring
-  <li>Constructors & ".this"
-  <li>Loops
+  <li>State Management
+  <li>Passing and utilizing props
+  <li>Event handlers (drop down menu)
 </ul>
 </strong>
+<p>
+  The code also uses multi-dimensional arrays, switch statements and much more.
+</p>
 <p>
 https://codesandbox.io/s/github/JordanWinslow/JavaScript-Game-of-Life
 </p>
