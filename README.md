@@ -1,4 +1,4 @@
-<a href="https://codesandbox.io/s/github/JordanWinslow/JavaScript-Game-of-Life">
+<a href="https://codesandbox.io/s/javascript-game-of-life-o0ukt?fontsize=14">
   <img src="https://gdurl.com/nuRM" alt="JavaScript & React Game of Life Screenshot">
   <h1>The "Game of Life" in JavaScript & React</h1>
 </a>
@@ -20,7 +20,7 @@
   The code also uses multi-dimensional arrays, switch statements and much more.
 </p>
 <p>
-https://codesandbox.io/s/github/JordanWinslow/JavaScript-Game-of-Life
+https://codesandbox.io/s/javascript-game-of-life-o0ukt?fontsize=14
 </p>
 
 <h3>About:</h3>
